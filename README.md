@@ -12,4 +12,4 @@ just build my own for free instead.
 - JS
     
 ## Project Results
-https://ryanlefebvre.github.io/Tree
+https://ryanlefebvre.github.io/TREE
