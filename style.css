@@ -1,15 +1,25 @@
 html, body {
-    height:100%;
+    margin: 0;
+    height: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-  }
+}
+
+html{
+    background-image: url('./images/gadsden.png');
+    background-size:cover;
+}
+
+body {
+    background: linear-gradient(-45deg, rgb(64, 115, 199,0.9), rgba(207,58,58, 0.9));
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+    padding-top:35px;
+    padding-bottom:35px;
+    height:fit-content;
+    min-height:100%;
+}
   
-  body {
-      background: linear-gradient(-45deg, #ffffff , #ce0b46 , #3c86e7, #ffffff);
-      background-size: 400% 400%;
-      animation: gradient 20s ease infinite;
-  }
-  
-  @keyframes gradient {
+@keyframes gradient {
       0% {
           background-position: 0% 50%;
       }
@@ -19,7 +29,8 @@ html, body {
       100% {
           background-position: 0% 50%;
       }
-  }
+}
+
 :root {
     --accentColor: #E6E6E6;
     --delay: .3s;
